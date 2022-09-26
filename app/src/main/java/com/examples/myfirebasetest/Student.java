@@ -1,4 +1,4 @@
-package com.example.myfirebasetest;
+package com.examples.myfirebasetest;
 
 public class Student {
     private String name;

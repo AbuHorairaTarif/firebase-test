@@ -5,8 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="com.examples.myfirebasetest.MainActivity">
 
     <EditText
         android:id="@+id/nameEditTextId"
@@ -21,8 +22,9 @@
         android:id="@+id/ageEditTextId"
         style="@style/TextAppearance.AppCompat.Large"
         android:layout_marginTop="15dp"
-        android:hint="Enter your age"
+        android:hint="Enter your contact number"
         android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
         android:layout_height="wrap_content">
     </EditText>
 
@@ -33,6 +35,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Save"
+        android:textSize="20sp"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/loadDataButtonId"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load"
         android:textSize="20sp"
         >
     </Button>

@@ -1,4 +1,4 @@
-package com.example.myfirebasetest;
+package com.examples.myfirebasetest;
 
 import android.content.Context;
 
